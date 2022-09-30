@@ -1,0 +1,282 @@
+.container { 
+  width: 50vw;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  padding: 70px 50px;
+ }
+#light .container {
+  background-color: rgb(197, 194, 194);
+}
+#dark .container {
+  background-color: rgb(127, 127, 127);
+}
+.right {
+  right: -20px;
+}
+#light .right {
+  background-color: rgb(237, 234, 234);
+}
+#dark .right {
+  background-color: rgb(44, 44, 44);
+}
+
+.logo{
+  width: 300px;
+  height: 140px;
+  left: 56px;
+  top: 61px;
+}
+
+.text-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 850px;
+  height: 54px;
+  margin: 20px 1px 200px;
+  display: flex;
+}
+
+.title {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 74px;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 6px;
+  margin-bottom: 50px;
+}
+#light .title{
+  color: #222831;
+}
+#dark .title{
+  color: #fdfdfd;
+}
+
+p{
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+}
+#light p{
+  color: #222831;
+}
+#dark p{
+  color: #fdfdfd;
+}
+
+.rectangle{
+  width: 280px;
+  height: 76px;
+  justify-content: flex-end;
+  align-items: right;
+}
+.rectangle-top {
+  margin: 60px 10px 40px;
+  margin-left: 470px;
+}
+.rectangle-bottom {
+  margin-left: 250px;
+}
+
+/*Register Form Section*/
+.formContainer {
+  display: flex;
+  flex-flow: row wrap-reverse;
+  align-items: center;
+  overflow-y: auto;
+  position: absolute;
+  width: 560px;
+  height: 950px;
+  left: 199px;
+  top: 5px;
+  padding: 5px;
+  background: transparent;
+}
+
+.formGroup{
+  display: flex;
+  flex-direction: column;
+}
+
+.formDesign{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+.formDesign2{
+  display: flex;
+  flex-direction: column;
+}
+.formDesign3{
+  width: 90%;
+}
+
+.titleForm{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 6px;
+  margin-bottom: 50px;
+}
+
+strong {
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 59px;
+  padding-right: 36px;
+  position: relative;
+}
+#light strong{
+  color: #000;
+}
+#dark strong{
+  color: #fdfdfd;
+}
+strong::after{
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 83px;
+  left: 0;
+  bottom: -16px;
+}
+#light strong::after{
+  background-color: #222831;
+}
+#dark strong::after{
+  background-color: #FFBF5E;
+}
+
+.labelTitle{
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.15px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+#light .labelTitle{
+  color: #000;
+}
+#dark .labelTitle{
+  color: #fdfdfd;
+}
+.labelTitle.required::after {
+  content: "*";
+  color: #f95959;
+}
+
+.textarea{
+  border: 2px solid #aaa;
+  height: 45px;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 0 22px;
+  font-size: 16px;
+  line-height: 20.2px;
+  letter-spacing: 0.15px;
+  outline: none;    
+}
+#light .textarea{
+  color: #424242;
+}
+#dark .textarea{
+  color: #fdfdfd;
+}
+
+span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  height: 16px;
+  padding-top: 5px;
+}
+.errorType {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  height: 16px;
+  padding-left: 22px;
+  padding-top: 5px;
+  font-style: normal;
+  color: #f95959;
+}
+.formErrorText {
+  color: #f95959;
+  font-family: 'Oxygen';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  height: 16px;
+}
+.checkbox{
+  width: 18px;
+  height:18px;
+  margin-top: 20px;
+  border: 2px solid #8e8e8e;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: absolute;
+}
+.checkboxLabel{
+    color: #8e8e8e;
+    width: 200px;
+    height: 10px;
+    letter-spacing: .1px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.loginButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 45px;
+  border: 0;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+#light .loginButton{
+  background-color: #222831;
+  color: #fff;
+}
+#dark .loginButton{
+  background-color: #FFBF5E;
+  color: rgb(0, 0, 0);
+}
+.loginButton:disabled{
+  opacity: 0.5;
+}
+
+.themeMode{
+  float: right;
+  margin-left: 200px;
+  height: 50px;
+  width: 50px;
+  border-style: none;
+}
+
+
