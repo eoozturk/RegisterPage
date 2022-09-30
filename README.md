@@ -1,5 +1,5 @@
-# RegisterPage
- Basic Register Page with React
+# React Register Page
+ Basic Register Page with React:
  
  * Use of Formik
  * Use of Yup
