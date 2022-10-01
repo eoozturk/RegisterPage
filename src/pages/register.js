@@ -37,7 +37,7 @@ return(
         <span className="rectangle rectangle-top">
           {
             theme === 'light' ?  <img src={Rect1}   alt="Rectangle 1" /> : 
-          <img src={Rect1Dark}   alt="Rectangle 1" />
+            <img src={Rect1Dark}   alt="Rectangle 1" />
           }
         </span>
        
@@ -74,7 +74,7 @@ return(
               reg ? <div ><p>Registration Successful</p></div>
               :
               <Formik
-              initialValues={{
+                initialValues={{
                 email: '',
                 username: '',
                 password: ''
@@ -154,7 +154,7 @@ return(
                       />
                     <span className='formErrorText'>{errors.passwordConfirm}</span>
                   </div>
-                  </div>
+                </div>
 
                 <input class="checkbox" type="checkbox"  name="checkbox"/>
                   <div class="checkboxLabel">
@@ -168,8 +168,8 @@ return(
                     }
                   </button>
                 </div>
-                </form> 
-                }  
+              </form> 
+            }  
               </Formik>
             }
           </div>
@@ -177,6 +177,6 @@ return(
       </div>
     </div>
   </>
-  );
+);
 }
 export default Register;

@@ -25,14 +25,13 @@
   background-color: rgb(44, 44, 44);
 }
 
-.logo{
+.logo {
   width: 350px;
   height: 140px;
   margin: 90px  200px;
-
 }
 
-.text-box{
+.text-box {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -57,28 +56,28 @@
   padding-bottom: 6px;
   margin-bottom: 50px;
 }
-#light .title{
+#light .title {
   color: #222831;
 }
-#dark .title{
+#dark .title {
   color: #fdfdfd;
 }
 
-p{
+p {
   font-family: 'Oxygen';
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
   line-height: 35px;
 }
-#light p{
+#light p {
   color: #222831;
 }
-#dark p{
+#dark p {
   color: #fdfdfd;
 }
 
-.rectangle{
+.rectangle {
   width: 280px;
   height: 76px;
   justify-content: flex-end;
@@ -107,26 +106,21 @@ p{
   background: transparent;
 }
 
-.formGroup{
-  display: flex;
-  flex-direction: column;
-}
-
-.formDesign{
+.formDesign {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
 }
-.formDesign2{
+.formDesign2 {
   display: flex;
   flex-direction: column;
 }
-.formDesign3{
+.formDesign3 {
   width: 90%;
 }
 
-.titleForm{
+.titleForm {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -142,13 +136,13 @@ strong {
   padding-right: 36px;
   position: relative;
 }
-#light strong{
+#light strong { 
   color: #000;
 }
-#dark strong{
+#dark strong {
   color: #fdfdfd;
 }
-strong::after{
+strong::after {
   content: "";
   position: absolute;
   height: 4px;
@@ -156,14 +150,14 @@ strong::after{
   left: 0;
   bottom: -16px;
 }
-#light strong::after{
+#light strong::after {
   background-color: #222831;
 }
-#dark strong::after{
+#dark strong::after {
   background-color: #fdfdfd;
 }
 
-.labelTitle{
+.labelTitle {
   font-weight: 700;
   font-size: 15px;
   line-height: 25px;
@@ -175,10 +169,10 @@ strong::after{
   justify-content: flex-start;
   align-items: flex-end;
 }
-#light .labelTitle{
+#light .labelTitle {
   color: #000;
 }
-#dark .labelTitle{
+#dark .labelTitle {
   color: #fdfdfd;
 }
 .labelTitle.required::after {
@@ -186,7 +180,7 @@ strong::after{
   color: #f95959;
 }
 
-.textarea{
+.textarea { 
   border: 2px solid #aaa;
   height: 45px;
   background-color: transparent;
@@ -197,10 +191,10 @@ strong::after{
   letter-spacing: 0.15px;
   outline: none;    
 }
-#light .textarea{
+#light .textarea {
   color: #424242;
 }
-#dark .textarea{
+#dark .textarea {
   color: #fdfdfd;
 }
 
@@ -212,6 +206,7 @@ span {
   height: 16px;
   padding-top: 5px;
 }
+
 .errorType {
   font-weight: 400;
   font-size: 12px;
@@ -223,6 +218,7 @@ span {
   font-style: normal;
   color: #f95959;
 }
+
 .formErrorText {
   color: #f95959;
   font-family: 'Oxygen';
@@ -232,7 +228,8 @@ span {
   letter-spacing: 0.4px;
   height: 16px;
 }
-.checkbox{
+
+.checkbox {
   width: 18px;
   height:18px;
   margin-top: 20px;
@@ -241,7 +238,7 @@ span {
   box-sizing: border-box;
   position: absolute;
 }
-.checkboxLabel{
+.checkboxLabel {
     color: #8e8e8e;
     width: 200px;
     height: 10px;
@@ -260,19 +257,19 @@ span {
   border-radius: 4px;
   margin-top: 25px;
 }
-#light .loginButton{
+#light .loginButton {
   background-color: #222831;
   color: #fff;
 }
-#dark .loginButton{
+#dark .loginButton {
   background-color: #fdfdfd;
   color: rgb(0, 0, 0);
 }
-.loginButton:disabled{
+.loginButton:disabled {
   opacity: 0.5;
 }
 
-.themeMode{
+.themeMode {
   float: right;
   margin-left: 200px;
   height: 50px;
