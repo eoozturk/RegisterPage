@@ -14,6 +14,7 @@
 #dark .container {
   background-color: rgb(127, 127, 127);
 }
+
 .right {
   right: -20px;
 }
@@ -25,10 +26,10 @@
 }
 
 .logo{
-  width: 300px;
+  width: 350px;
   height: 140px;
-  left: 56px;
-  top: 61px;
+  margin: 90px  200px;
+
 }
 
 .text-box{
@@ -84,7 +85,7 @@ p{
   align-items: right;
 }
 .rectangle-top {
-  margin: 60px 10px 40px;
+  margin: 200px 10px 40px;
   margin-left: 470px;
 }
 .rectangle-bottom {
@@ -159,7 +160,7 @@ strong::after{
   background-color: #222831;
 }
 #dark strong::after{
-  background-color: #FFBF5E;
+  background-color: #fdfdfd;
 }
 
 .labelTitle{
@@ -264,7 +265,7 @@ span {
   color: #fff;
 }
 #dark .loginButton{
-  background-color: #FFBF5E;
+  background-color: #fdfdfd;
   color: rgb(0, 0, 0);
 }
 .loginButton:disabled{
