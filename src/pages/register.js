@@ -71,7 +71,7 @@ return(
             </h3>
 
             {
-              reg ? <div ><p>Registration Successful</p></div>
+              reg ? <div><p>Registration Successful</p></div>
               :
               <Formik
                 initialValues={{
